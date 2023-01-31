@@ -20,9 +20,13 @@ npm i -g @nestjs/cli
 ```
 
 4. No pude hacer funcionar docker en mi pc, asi que se debera configurar el archivo .env para la conexion con mongoose
-
 ```
 npm i --save @nestjs/mongoose mongoose
+```
+
+5. Ejecutar la semilla
+```
+http://localhost:3000/api/v2/seed
 ```
 
 ## Stack usado
